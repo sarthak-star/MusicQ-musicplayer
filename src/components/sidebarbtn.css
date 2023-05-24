@@ -1,0 +1,24 @@
+.sidebarbtn{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: rgba(0, 41, 69, 0);
+    
+    
+}
+.sidebarbtn.active{
+    background-color: rgba(0, 41, 69, 1);
+}
+.sidebarbtn:hover {
+    transform: scale(1.2);
+    
+
+}

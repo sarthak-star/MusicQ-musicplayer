@@ -1,0 +1,23 @@
+.screen-container{
+    width:calc(100vw - 100px);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #06011f;
+    background-color: #06011f;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #06011f 100px ), repeating-linear-gradient(  #233656,  #23365655 );
+    
+    
+}
+.main-body{
+    display: flex;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+    
+}

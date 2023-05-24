@@ -1,0 +1,18 @@
+.left-body{
+    width: 30%;
+    height: 100vh;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.right-body{
+    width: 68%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,42 @@
+.audioplayer-body{
+    width: 100%;
+    height: 44%;
+    
+    display: flex;
+    
+}
+.song-title{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 700;
+}
+.audioplayer-left-body{
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.audioplayer-right-body{
+    width: 37%;
+    
+}
+.player-left-bottom{
+    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.song-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 100%;
+}
+.song-duration p{
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}

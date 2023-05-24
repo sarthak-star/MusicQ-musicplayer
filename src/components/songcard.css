@@ -1,0 +1,81 @@
+.songcard{
+    height: 62%;
+    
+    width: 90%;
+    background: linear-gradient(
+        75deg,
+        rgb(40,58,88) 0%,
+        rgba(54,69,98,0) 100%
+    );
+    
+    
+    border-radius: 20px;
+    padding: 1%;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.songcard-img{
+    padding-top: 8px;
+    
+    max-width: 90%;
+    min-width: 85%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img-shadow{
+    width: 90%;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    filter: blur(20px);
+}
+
+.songcard-img img{
+    aspect-ratio: 1;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.cardname-container{
+   
+    width: 85%;
+    overflow: hidden;
+    
+
+}
+
+.songcard-name{
+    color: aliceblue;
+    white-space: nowrap;
+    display: inline-block;
+    animation: marquee 9s linear infinite;
+    padding-left: 100%;
+    
+    
+
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.card-info{
+    color: aliceblue;
+    width: 85%;
+}
